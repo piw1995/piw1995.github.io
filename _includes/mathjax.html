@@ -1,21 +1,24 @@
 <script type="text/javascript">
   window.MathJax = {
     loader: {
-      load: ['[tex]/physics', '[tex]/ams']
+      load: ['[tex]/physics', '[tex]/ams'] // Physics와 AMS 패키지 로드
     },
     tex: {
-      packages: {'[+]': ['physics', 'ams']},
+      packages: {'[+]': ['physics', 'ams']}, // LaTeX 패키지 추가
       inlineMath: [['$', '$'], ['\\(', '\\)']],
-      displayMath: [['$$', '$$'], ['\\[', '\\]']]
-    },
-    options: {
-      renderActions: {
-        addMenu: [0, '', '']
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      macros: {
+        R: "\\mathbb{R}",  // 추가적인 매크로 예제
+        Z: "\\mathbb{Z}",
+        vec: ["{\\boldsymbol{#1}}", 1],   // 벡터 기호
+        abs: ["{\\lvert #1 \\rvert}", 1], // 절댓값
+        norm: ["{\\lVert #1 \\rVert}", 1] // 노름
       }
+    },
+    svg: {
+      fontCache: 'global'
     }
   };
 </script>
-<script type="text/javascript" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 

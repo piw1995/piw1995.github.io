@@ -1,0 +1,18 @@
+---
+layout: default
+title: "My Physics Blog"
+---
+
+<h1>Welcome to My Physics Blog</h1>
+<p>Explore my physics notes and LaTeX equations.</p>
+
+<h2>Recent Posts</h2>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <small>{{ post.date | date: "%B %d, %Y" }}</small>
+    </li>
+  {% endfor %}
+</ul>
+

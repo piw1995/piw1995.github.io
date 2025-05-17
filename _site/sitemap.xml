@@ -4,4 +4,7 @@
 <loc>http://localhost:4000/2025/05/17/example.html</loc>
 <lastmod>2025-05-17T00:00:00+09:00</lastmod>
 </url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
 </urlset>
