@@ -9,6 +9,10 @@ plugins:
 just_the_docs:
   mathjax: true # LaTeX 수식 지원
   search_enabled: true
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
 defaults:
   - scope:
       path: ""
