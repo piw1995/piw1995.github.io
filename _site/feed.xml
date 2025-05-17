@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-05-17T20:45:33+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Physics Blog</title><subtitle>LaTeX 수식이 깔끔하게 표시되는 블로그</subtitle><entry><title type="html">LaTeX Example</title><link href="http://localhost:4000/2025/05/17/example.html" rel="alternate" type="text/html" title="LaTeX Example" /><published>2025-05-17T00:00:00+09:00</published><updated>2025-05-17T00:00:00+09:00</updated><id>http://localhost:4000/2025/05/17/example</id><content type="html" xml:base="http://localhost:4000/2025/05/17/example.html"><![CDATA[<h2 id="latex-수식-예제">LaTeX 수식 예제</h2>
+
+<p>수식 예제:</p>
+
+\[E = mc^2\]
+
+\[\int_0^\infty e^{-x} dx = 1\]
+
+\[\begin{align}
+\mathbf{A}\cp(\mathbf{B}\cp\mathbf{C})&amp;=(\mathbf{A}\cdot\mathbf{C})\mathbf{B}-(\mathbf{A}\cdot\mathbf{B})\mathbf{C}\\
+\div(\mathbf{A}\cp\mathbf{B})=(\curl\mathbf{A})\cdot\mathbf{B}-\mathbf{A}\cdot(\curl\mathbf{B})
+\end{align}\]]]></content><author><name></name></author><summary type="html"><![CDATA[LaTeX 수식 예제]]></summary></entry></feed>

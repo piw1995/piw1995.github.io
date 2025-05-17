@@ -9,4 +9,8 @@ plugins:
 just_the_docs:
   mathjax: true # LaTeX 수식 지원
   search_enabled: true
-
+defaults:
+  - scope:
+      path: ""
+    values:
+      favicon: /favicon.ico
