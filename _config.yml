@@ -1,0 +1,12 @@
+title: "My Physics Blog"
+description: "LaTeX 수식이 깔끔하게 표시되는 블로그"
+remote_theme: pmarsceill/just-the-docs
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+just_the_docs:
+  mathjax: true # LaTeX 수식 지원
+  search_enabled: true
+
